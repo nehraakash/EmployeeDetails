@@ -29,7 +29,7 @@ namespace Employee.Steps
         [When(@"I try to find with ID '(.*)'")]
         public void WhenITryToFindWithID(Model.Employee obj)
         {
-            ScenarioContext.Current.Set(obj, "empFound");
+            ScenarioContext.Current.Set(obj, "  empFound");
         }
 
         [Then(@"the employee details should be displayed")]
